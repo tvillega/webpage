@@ -1,0 +1,8 @@
+x=4
+if x>8:
+	y=3
+else:
+	z=8
+w=2
+r=5
+print(w+r+y+x)

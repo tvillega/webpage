@@ -1,0 +1,42 @@
+# The URL the site will be built for
+base_url = "https://users.dcc.uchile.cl/~tvillega"
+title = "Tom is Here"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# The site theme to use
+theme = "terminimal"
+
+# When set to "true", the generated HTML files are minified.
+minify_html = true
+
+taxonomies = [
+    {name = "tags"}
+]
+
+[markdown]
+
+# When set to "true", all code blocks are highlighted.
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+
+logo_text = "Tom is Here"
+
+copyright_html = "2023&nbsp;<a href='mailto:tvillega@dcc.uchile.cl'>Tom</a> &#128153; Made with&nbsp; <a href='https://getzola.org'>Zola</a>"
+
+# menu is enabled by adding menu_items (optional)
+menu_items = [
+    # each of these is optional, name and url are required
+    # $BASE_URL is going to be substituted by base_url from configuration
+    {name = "About", url = "$BASE_URL/about"},
+
+    # tags should only be enabled if you have "tags" taxonomy
+    # see documentation below for more details
+    {name = "Tags", url = "$BASE_URL/tags"},
+    {name = "Archive", url = "$BASE_URL/archive"},
+]
+
+favicon = "/undone.jpg"

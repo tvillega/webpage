@@ -1,0 +1,7 @@
+resources/_gen
+.hugo_build.lock
+public
+publish.sh
+deploy.sh
+get-date.sh
+
