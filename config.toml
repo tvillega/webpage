@@ -25,7 +25,7 @@ highlight_code = true
 
 logo_text = "Tom is Here"
 
-copyright_html = "2023&nbsp;<a href='mailto:tvillega@dcc.uchile.cl'>Tom</a> &#128153; Made with&nbsp; <a href='https://getzola.org'>Zola</a>"
+copyright_html = "<p>2023&nbsp;<a href='mailto:tvillega@dcc.uchile.cl'>Tom</a> &#128153; Made with <a href='https://getzola.org'>Zola</a></p>"
 
 # menu is enabled by adding menu_items (optional)
 menu_items = [
@@ -40,3 +40,4 @@ menu_items = [
 ]
 
 favicon = "/undone.jpg"
+favicon_mimetype = "image/jpg"
