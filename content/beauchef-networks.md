@@ -9,6 +9,8 @@ There are several networks available with their respective guides, but some prog
 
 This is a small documentation of my findings, in the event I need them again.
 
+---
+
 ## iwd - iNet Wireless Daemon
 
 From the [Arch Wiki](https://wiki.archlinux.org/title/Iwd): *The core goal of the project is to optimize resource utilization by not depending on any external libraries and instead utilizing features provided by the Linux Kernel to the maximum extent possible.*
