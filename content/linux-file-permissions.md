@@ -9,7 +9,7 @@ tags = ["linux", "permissions"]
 
 Each student in the Computer Science's department is assigned a user on the server. This allow us to have access to a variety of services inside the facilities, from printing quotas to Wi-Fi credentials. My favourite thing it's that they allow us to ssh remotely into our accounts with the [Apache's per-user web directories module](https://httpd.apache.org/docs/2.4/howto/public_html.html) enabled. That's right, this website is sponsored by Universidad de Chile and has been setup from the commodity of my home.
 
----
+<!-- more -->
 
 I have had experience setting up websites with `nginx`. I learnt the best practices from Debian and I keep everything tidy at all times. However, the department's server is configured using Apache and I am an unprivileged user. That was the first time I truly witnessed the power of Linux file permissions in action.
 

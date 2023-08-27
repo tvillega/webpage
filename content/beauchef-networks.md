@@ -9,7 +9,7 @@ There are several networks available with their respective guides, but some prog
 
 This is a small documentation of my findings, in the event I need them again.
 
----
+<!-- more -->
 
 ## iwd - iNet Wireless Daemon
 
